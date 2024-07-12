@@ -1,0 +1,5 @@
+# VARIAVEIS
+nome = 'gustavo'
+idade = 21
+peso = 67
+print(nome, idade, peso)
