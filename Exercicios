@@ -3,3 +3,28 @@ nome = 'gustavo'
 idade = 21
 peso = 67
 print(nome, idade, peso)
+
+# VARIAVEIS COM PERGUNTA INTERATIVA
+
+nome = input('qual e seu nome?')
+idade = input('qual a sua idade?')
+peso = input('qual seu peso')
+
+# DESAFIO 1
+nome = input('Qual seu nome?')
+saudacao = 'Prazer em te conhecer !'
+print('Olá' + ' ' +  nome + ',' ' ' +  saudacao)
+
+# DESAFIO 2
+
+dia = input('Que dia você nasceu?')
+mes = input('De qual mês?')
+ano = input('De que ano?')
+print('Você nasceu no dia', dia, 'de', mes, 'do ano de', ano, '. Correto?')
+
+# DESAFIO 3
+
+primeiro_numero = int(input())
+segundo_numero = int(input())
+soma = primeiro_numero+segundo_numero
+print(soma)
